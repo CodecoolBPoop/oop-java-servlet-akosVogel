@@ -27,6 +27,7 @@ public class ServletWithAnnotations extends HttpServlet {
                 "<li><b>Last Name</b>: " + request.getParameter("last_name") + "\n" +
                 "</ul>\n" +
                 "<div>Visit another servlet: <a href=\"/another\">Visit the other servlet</a></div>" +
+                        "<div>Webshop: <a href=\"/webshop\">Webshop</a></div>" +
                 "</body></html>"
         );
     }
